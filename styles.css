@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 100%
+}
+
+body {
+    background-color: #F2F2F2;
+    color: black;
+    margin: 0px;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box
+}
+
+.link {
+    border-bottom:  0.75px #ff7500;
+    text-decoration: none;
+    color: #ff7500;
+}
+
+#page-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4.25rem;
+}
+
+@media (min-width: 20rem) {
+    #page-container {
+        padding: 0 1.25rem
+    }
+}
+
+@media (min-width: 58rem) {
+    #page-container {
+        padding: 0;
+        max-width: 48.75rem
+    }
+}
+
+#page-container .avatar {
+    background-image: url("tangolabs.png");
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 4.25rem
+}
+
+#page-container h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.375rem;
+    text-align: center;
+}
+
+#page-container main {
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media (min-width: 20rem) {
+    #page-container main {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 2.25rem
+    }
+}
+
+@media (min-width: 48rem) {
+    #page-container main {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-top: 3.25rem;
+        margin-bottom: 1.25rem;
+    }
+}
+
+#page-container main h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.375rem;
+}
+
+#page-container main p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.625rem
+}
+
+@media (min-width: 48rem) {
+    #page-container .about {
+        padding-right: 6rem
+    }
+}
+
+img,
+svg {
+    max-width: 100%
+}
+
+img {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+img:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* Overriding The Default Text Selection Color With CSS
+https://css-tricks.com/overriding-the-default-text-selection-color-with-css/ */
+::selection {
+    background: #ff7500;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #ff7500;
+    /* Gecko Browsers */
+}
+
+.about-cloud-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 14px;
+    padding: 5px 11px 5px;
+    border-color: grey;
+    border-radius: 3px;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    box-sizing: border-box;
+    line-height: 1.68em;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.about-cloud-item:hover {
+    border-color: black;
+    -webkit-transition: color 0.1s; /* For Safari 3.0 to 6.0 */
+        transition: color 0.1s; /* For modern browsers */
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
