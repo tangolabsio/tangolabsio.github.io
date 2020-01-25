@@ -118,12 +118,12 @@ img:hover {
 /* Overriding The Default Text Selection Color With CSS
 https://css-tricks.com/overriding-the-default-text-selection-color-with-css/ */
 ::selection {
-    background: #ff7500;
+    background: #ffcaa4;
     /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-    background: #ff7500;
+    background: #ffcaa4;
     /* Gecko Browsers */
 }
 
@@ -145,8 +145,9 @@ https://css-tricks.com/overriding-the-default-text-selection-color-with-css/ */
 
 .about-cloud-item:hover {
     border-color: black;
-    -webkit-transition: color 0.1s; /* For Safari 3.0 to 6.0 */
-        transition: color 0.1s; /* For modern browsers */
+/*    -webkit-transition: ease-out 0.4s;*/
+/*    -moz-transition: ease-out 0.4s;*/
+/*    transition: ease-out 0.4s;*/
 }
 
 a {

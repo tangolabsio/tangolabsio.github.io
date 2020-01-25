@@ -10,8 +10,8 @@ body {
 }
 
 body {
-    background-color: #17202a;
-    color: white;
+    background-color: #F2F2F2;
+    color: black;
     margin: 0px;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -20,9 +20,9 @@ body {
 }
 
 a {
-    border-bottom:  0.75px #0a84ff;
+    border-bottom:  0.75px #ff7500;
     text-decoration: none;
-    color: #0a84ff;
+    color: #ff7500;
 }
 
 #page-container {
@@ -117,25 +117,25 @@ img {
 /* Overriding The Default Text Selection Color With CSS
 https://css-tricks.com/overriding-the-default-text-selection-color-with-css/ */
 ::selection {
-    background: #0a84ff;
+    background: #ffcaa4;
     /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-    background: #0a84ff;
+    background: #ffcaa4;
     /* Gecko Browsers */
 }
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	/* padding-top: 25px; */
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    /* padding-top: 25px; */
+    height: 0;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
